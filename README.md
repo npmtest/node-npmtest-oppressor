@@ -1,8 +1,8 @@
 # npmtest-oppressor
 
-test coverage for  [oppressor (v0.0.1)](https://github.com/substack/oppressor)  [![npm package](https://img.shields.io/npm/v/npmtest-oppressor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-oppressor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-oppressor.svg)](https://travis-ci.org/npmtest/node-npmtest-oppressor)
+#### basic test coverage for  [oppressor (v0.0.1)](https://github.com/substack/oppressor)  [![npm package](https://img.shields.io/npm/v/npmtest-oppressor.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-oppressor) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-oppressor.svg)](https://travis-ci.org/npmtest/node-npmtest-oppressor)
 
-streaming http compression response negotiator
+#### streaming http compression response negotiator
 
 [![NPM](https://nodei.co/npm/oppressor.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/oppressor)
 
@@ -10,7 +10,7 @@ streaming http compression response negotiator
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-oppressor/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-oppressor/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-oppressor/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-oppressor/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-oppressor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-oppressor/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-oppressor/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-oppressor/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-oppressor/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-oppressor/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-oppressor/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-oppressor/build/coverage.html/index.html)
 
@@ -87,7 +87,8 @@ streaming http compression response negotiator
     "scripts": {
         "test": "tap test/*.js"
     },
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "bin": {}
 }
 ```
 
